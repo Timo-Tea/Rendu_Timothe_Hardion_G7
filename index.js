@@ -48,23 +48,3 @@ button.addEventListener("click", function () {
   ici.style.top = `${y}px`;
 });
 
-
-
-// const bouton = document.querySelector("#bouton");
-
-// bouton.addEventListener("click", () => {
-//   // alert("Bouton cliqué");
-//   const x =Math.floor(Math.random() * window.innerWidth);
-//   const y =Math.floor(Math.random() * window.innerHeight);
-//   Blitzø.style.left = `${x}px`;
-//   Blitzø.style.top = `${y}px`;
-
-// });
-
-// setInterval(() => {
-//   document.body.style.backgroundColor = `rgb(
-//     ${Math.floor(Math.random() * 255)},
-//     ${Math.floor(Math.random() * 255)},
-//     ${Math.floor(Math.random() * 255)}
-//   )`;
-// }, 100);
