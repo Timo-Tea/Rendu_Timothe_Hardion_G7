@@ -1,0 +1,36 @@
+.bleu {
+    color: rgb(34, 32, 126)
+}
+
+* .content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Blitzø {
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.rotation {
+    display: flex;
+    margin: 40px auto;
+}
+
+.rotation:hover {
+    animation: 2s infinite linear tourne;
+}
+
+@keyframes tourne {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
